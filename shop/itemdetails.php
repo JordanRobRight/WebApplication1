@@ -82,8 +82,9 @@
                                 <h3 style='color:black';>$pro_title</h3>
                                 <img src = '../shop/resources/$pro_image' width='400px'>
                                 <p>$ $pro_price</p>
+                                <p> $pro_desc</p>
                                 
-                                <a href='index.php?pro_id=$pro_id' class='shopDetails' style='float:left;'>Go Back</a>
+                                <a href='index.php' class='shopDetails' style='float:left;'>Go Back</a>
 
                                 <a href='index.php?pro_id=$pro_id'><button class='addToCart'>Add to Cart</button></a>
                                 </div>
