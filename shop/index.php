@@ -44,6 +44,7 @@
 
                 <ul id="cats" st>
                     <?php getCats(); ?>
+
                 </ul>
             </div>
 
@@ -57,6 +58,7 @@
             
                 <div id="products_box" class="col-md-12">
                     <?php getPro(); ?>
+                    <?php getCatPro(); ?>
 
                 </div>
                 
