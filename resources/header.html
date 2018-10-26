@@ -1,7 +1,7 @@
 <div class="col-sm-12">
             <div class="navbar-header">
                 <div class="col-sm-8">
-                    <img src="resources/WH2018blackNwhitePDF.png" alt="Whatever Hot Rod Logo" width="25%" height="15%" style="float: left; padding-right:1em;">
+                    <a href="index.php"><img src="resources/WH2018blackNwhitePDF.png" alt="Whatever Hot Rod Logo" width="25%" height="15%" style="float: left; padding-right:1em;"></a>
                 </div>
                 <div class="col-sm-4">
                     <img src="resources/social_icon.jpg" alt="" width="140" height="35" usemap="#social">
@@ -20,14 +20,25 @@
                 <!--class="navbar-brand"-->
 
             </div>
+
+<div class="header_wrapper">
+    
+</div>
+
             <div class="nav-header" data-spy="affix" data-offset-top="175" style="margin-top:1em; z-index:+1000;">
-                <ul class="nav nav-pills nav-justified">
+                <ul class="nav nav-pills nav-justified" id="menu" >
                     <li class="col-sm-2"><a href="/wehr/index.php">Home</a></li>
-                    <li class="col-sm-2"><a href="/wehr/shop/index.php">Shop</a></li>
+                    <li class="col-sm-2"><a href="/wehr/shop/shop_index.php">Shop</a></li>
                     <li class="col-sm-2"><a href="https://www.youtube.com/channel/UCCtJfmUDHdq27NXuKEDUssg/videos">Videos</a></li>
-                    <li class="col-sm-2"><a href="/wehr/about/index.php">About</a></li>
-                    <li class="col-sm-2"><a href="/wehr/contact/index.php">Contact</a></li>
+                    <li class="col-sm-2"><a href="/wehr/about/about_index.php">About</a></li>
+                    <li class="col-sm-2"><a href="/wehr/contact/contact_index.php">Contact</a></li>
                 </ul>
+                <div id="form">   
+                        <form method="get" action="resuclts.php" enctype="multipart/form-data">  
+                                <input type="text" name="user_query" placeholder="search a product"/>
+                                <input type="submit" name="search" value="Search"/>
+                        </form>
+                </div>
             </div>
 
  </div> 
