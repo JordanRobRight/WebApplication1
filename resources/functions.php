@@ -101,7 +101,7 @@ function getCatPro (){
 
 					 	<h3 style='color:black';>$pro_title</h3>
 					 	<img src = '../shop/resources/$pro_image' width='300px' height='300px'>
-					 	<p>$ $pro_price</p>
+					 	<p>Price:$ $pro_price</p>
 					 	
 					 	<a href='itemdetails.php?pro_id=$pro_id' class='shopDetails' style='float:left;'>Details</a>
 
