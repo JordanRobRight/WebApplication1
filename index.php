@@ -26,15 +26,16 @@
 	fclose($fh);
 	echo $theData;
      ?>
-       
+       <?php total_items(); ?>
+
         <div class="col-sm-12" id="topper">
                 <iframe width="100%" height="500em" src="https://www.youtube.com/watch?v=nV3HEdzUPwo" frameborder="0" allowfullscreen></iframe>
         </div>
 
         <div id="content_area">
-            
+            <?php cart(); ?>
             <div id="products_box">
-
+                <?php echo $ip=getIp(); ?>
                 <?php getPro(); ?>
                 
             </div>
